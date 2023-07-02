@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@asiforg/articles": ["libs/articles/src/index.ts"],
+      "@asiforg/auth": ["libs/auth/src/index.ts"],
+      "@asiforg/core": ["libs/core/src/index.ts"],
+      "@asiforg/home": ["libs/home/src/index.ts"],
+      "@asiforg/profile": ["libs/profile/src/index.ts"],
+      "@asiforg/settings": ["libs/settings/src/index.ts"],
+      "@asiforg/ui": ["libs/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
